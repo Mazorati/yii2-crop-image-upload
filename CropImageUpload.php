@@ -4,7 +4,7 @@
  * @link https://github.com/karpoff/yii2-crop-image-upload
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
-namespace karpoff\icrop;
+namespace mazorati\icrop;
 
 use yii\base\InvalidConfigException;
 use yii\helpers\Html;
@@ -15,7 +15,7 @@ use yii\widgets\InputWidget;
  * CropImageUpload renders a jCrop plugin for image crop.
  * @see http://deepliquid.com/content/Jcrop.html
  * @link https://github.com/karpoff/yii2-crop-image-upload
- * @package karpoff\icrop
+ * @package mazorati\icrop
  */
 class CropImageUpload extends InputWidget
 {
@@ -75,16 +75,6 @@ class CropImageUpload extends InputWidget
 
         if ($this->hasModel()) {
             echo Html::activeInput('file', $this->model, $this->attribute, $this->options);
-
-            $crops = [
-                [
-                    'cropped_field' => 'photo_cropped',
-                    'crop_field' => 'photo_crop',
-                    'ratio' => 9/5,
-                    'value' => null,
-                    'image' => null
-                ]
-            ];
 
 
             $jsOptions['crops'] = [];

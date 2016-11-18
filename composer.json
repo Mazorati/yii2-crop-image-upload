@@ -4,7 +4,7 @@
   "homepage": "https://github.com/Mazorati/yii2-crop-image-upload",
   "license": "BSD-3-Clause",
   "type": "yii2-extension",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "keywords": ["yii2", "crop", "image", "upload"],
   "authors": [
 	{

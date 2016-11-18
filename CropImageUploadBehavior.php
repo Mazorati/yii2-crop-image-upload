@@ -5,7 +5,7 @@
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
 
-namespace karpoff\icrop;
+namespace mazorati\icrop;
 
 use Imagine\Image\Box;
 use Imagine\Image\Point;

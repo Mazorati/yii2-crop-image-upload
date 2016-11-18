@@ -6,13 +6,13 @@
  * @license http://www.opensource.org/licenses/bsd-license.php New BSD License
  */
 
-namespace karpoff\icrop;
+namespace mazorati\icrop;
 
 use yii\web\AssetBundle;
 
 class CropImageUploadAsset extends AssetBundle
 {
-	public $sourcePath = '@vendor/karpoff/yii2-crop-image-upload/assets';
+	public $sourcePath = '@vendor/mazorati/yii2-crop-image-upload/assets';
 
 	public $depends = [
 		'yii\web\YiiAsset',
